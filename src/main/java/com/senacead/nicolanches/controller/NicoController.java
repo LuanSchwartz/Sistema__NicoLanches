@@ -64,8 +64,11 @@ public class NicoController {
         return "redirect:/listagem";
         }
     
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> 3b9ef4c (sistema final)
     @GetMapping("/RegistroPedido")
     public String registro(Model model){
         model.addAttribute("pedido", new Pedido());
